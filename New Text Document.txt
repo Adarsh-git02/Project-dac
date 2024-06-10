@@ -1,0 +1,81 @@
+1 What is the purpose of the finally block in Java exception handling?
+ 
+A) To catch exceptions and handle them appropriately.
+B) To execute a block of code regardless of whether an exception is thrown or not.
+C) To specify the exceptions that a method might throw.
+D) To define custom exception classes.
+ 
+Answer: B) To execute a block of code regardless of whether an exception is thrown or not.
+ 
+Which of the following statements about checked and unchecked exceptions in Java is true?
+ 
+A) Checked exceptions are subclasses of RuntimeException.
+B) Unchecked exceptions must be explicitly caught or declared in the method signature using the throws keyword.
+C) Checked exceptions are always caught at compile-time.
+D) Unchecked exceptions are subclasses of Exception.
+ 
+Answer: C) Checked exceptions are always caught at compile-time.
+ 
+What happens if an exception is thrown inside a try block, but no catch block matches its type?
+ 
+A) The program crashes.
+B) The exception is caught by the finally block.
+C) The program continues execution after the try block.
+D) The exception is propagated up the call stack.
+ 
+Answer: D) The exception is propagated up the call stack.
+ 
+Which keyword is used to explicitly throw an exception in Java?
+ 
+A) try
+B) throw
+C) catch
+D) finally
+ 
+Answer: B) throw
+ 
+What does the throws keyword indicate in a method signature?
+ 
+A) That the method must be called within a try block.
+B) That the method throws an exception.
+C) That the method handles exceptions internally.
+D) That the method is overloaded.
+ 
+Answer: B) That the method throws an exception.
+ 
+ 
+What happens if a method declares that it throws a checked exception, but no exception of that type is thrown within the method?
+ 
+A) The code will not compile.
+B) The method will throw a NullPointerException.
+C) The method will throw an ArrayIndexOutOfBoundsException.
+D) The code will compile without any issues.
+ 
+Answer: D) The code will compile without any issues.
+ 
+Which of the following is NOT a valid way to handle exceptions in Java?
+ 
+A) Using a try block followed by a catch block.
+B) Using a try block followed by multiple catch blocks.
+C) Using a try block followed by a finally block.
+D) Using a try block followed by a throw statement.
+ 
+Answer: D) Using a try block followed by a throw statement.
+ 
+What does the printStackTrace() method do when called on an exception object in Java?
+ 
+A) Prints the exception message to the console.
+B) Prints the entire stack trace of the exception to the console.
+C) Throws the exception to the console.
+D) Clears the exception object.
+ 
+Answer: B) Prints the entire stack trace of the exception to the console.
+ 
+In Java, which keyword is used to create a custom exception class?
+ 
+A) try
+B) catch
+C) throw
+D) class
+ 
+Answer: D) class
